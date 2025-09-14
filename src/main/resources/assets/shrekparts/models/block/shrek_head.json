@@ -1,0 +1,42 @@
+{
+  "credit": "ShrekParts – 3D head with per-face textures",
+  "gui_light": "front",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "shrekparts:block/shrek_head_side",
+    "front":   "shrekparts:block/shrek_head_face",
+    "side":    "shrekparts:block/shrek_head_side",
+    "back":    "shrekparts:block/shrek_head_back",
+    "up":      "shrekparts:block/shrek_head_top",
+    "down":    "shrekparts:block/shrek_head_bottom",
+    "ear":     "shrekparts:block/shrek_head_ear"
+  },
+  "elements": [
+    { "name": "Head", "from": [3,3,3], "to": [13,13,13],
+      "faces": {
+        "north": { "uv": [0,0,16,16], "texture": "#front" },
+        "south": { "uv": [0,0,16,16], "texture": "#back"  },
+        "west":  { "uv": [0,0,16,16], "texture": "#side"  },
+        "east":  { "uv": [0,0,16,16], "texture": "#side"  },
+        "up":    { "uv": [0,0,16,16], "texture": "#up"    },
+        "down":  { "uv": [0,0,16,16], "texture": "#down"  }
+      }
+    },
+    { "name": "EarL", "from": [1,9,6], "to": [3,11,10],
+      "faces": { "north": {"uv":[0,0,16,16], "texture":"#ear"},
+        "south": {"uv":[0,0,16,16], "texture":"#ear"},
+        "west":  {"uv":[0,0,16,16], "texture":"#ear"},
+        "east":  {"uv":[0,0,16,16], "texture":"#ear"},
+        "up":    {"uv":[0,0,16,16], "texture":"#ear"},
+        "down":  {"uv":[0,0,16,16], "texture":"#ear"} }
+    },
+    { "name": "EarR", "from": [13,9,6], "to": [15,11,10],
+      "faces": { "north": {"uv":[0,0,16,16], "texture":"#ear"},
+        "south": {"uv":[0,0,16,16], "texture":"#ear"},
+        "west":  {"uv":[0,0,16,16], "texture":"#ear"},
+        "east":  {"uv":[0,0,16,16], "texture":"#ear"},
+        "up":    {"uv":[0,0,16,16], "texture":"#ear"},
+        "down":  {"uv":[0,0,16,16], "texture":"#ear"} }
+    }
+  ]
+}
