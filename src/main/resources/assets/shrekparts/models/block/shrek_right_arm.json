@@ -1,0 +1,27 @@
+{
+  "credit": "ShrekParts",
+  "ambientocclusion": false,
+  "textures": {
+    "front":   "shrekparts:block/shrek_right_arm_front_16",
+    "back":    "shrekparts:block/shrek_right_arm_back_16",
+    "left":    "shrekparts:block/shrek_right_arm_left_16",
+    "right":   "shrekparts:block/shrek_right_arm_right_16",
+    "up":      "shrekparts:block/shrek_right_arm_top_16",
+    "down":    "shrekparts:block/shrek_right_arm_bottom_16",
+    "particle":"shrekparts:block/shrek_right_arm_front_16"
+  },
+  "elements": [
+    {
+      "from": [6, 0, 6],
+      "to":   [10, 14, 10],
+      "faces": {
+        "north": { "texture": "#front", "uv": [0.01, 0.01, 15.99, 15.99] },
+        "south": { "texture": "#back",  "uv": [0.01, 0.01, 15.99, 15.99] },
+        "west":  { "texture": "#left",  "uv": [0.01, 0.01, 15.99, 15.99] },
+        "east":  { "texture": "#right", "uv": [0.01, 0.01, 15.99, 15.99] },
+        "up":    { "texture": "#up",    "uv": [0.01, 0.01, 15.99, 15.99] },
+        "down":  { "texture": "#down",  "uv": [0.01, 0.01, 15.99, 15.99] }
+      }
+    }
+  ]
+}

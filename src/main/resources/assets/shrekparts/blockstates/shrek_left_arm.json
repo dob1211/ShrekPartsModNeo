@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "shrekparts:block/shrek_left_arm" },
+    "facing=south": { "model": "shrekparts:block/shrek_left_arm", "y": 180 },
+    "facing=west":  { "model": "shrekparts:block/shrek_left_arm", "y": 270 },
+    "facing=east":  { "model": "shrekparts:block/shrek_left_arm", "y": 90 }
+  }
+}

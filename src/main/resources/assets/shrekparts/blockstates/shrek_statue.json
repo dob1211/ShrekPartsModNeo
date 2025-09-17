@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "shrekparts:block/shrek_statue", "y": 180, "uvlock": true },
+    "facing=south": { "model": "shrekparts:block/shrek_statue", "y":   0, "uvlock": true },
+    "facing=west":  { "model": "shrekparts:block/shrek_statue", "y":  90, "uvlock": true },
+    "facing=east":  { "model": "shrekparts:block/shrek_statue", "y": 270, "uvlock": true }
+  }
+}

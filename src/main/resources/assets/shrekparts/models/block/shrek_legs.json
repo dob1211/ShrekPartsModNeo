@@ -1,0 +1,27 @@
+{
+  "credit": "ShrekParts",
+  "ambientocclusion": false,
+  "textures": { "all": "shrekparts:block/shrek_legs_16", "particle": "shrekparts:block/shrek_legs_16" },
+  "elements": [
+    { "from": [4, 0, 6], "to": [7, 12, 10],
+      "faces": {
+        "north": {"texture": "#all", "uv": [0,0,16,16]},
+        "south": {"texture": "#all", "uv": [0,0,16,16]},
+        "west":  {"texture": "#all", "uv": [0,0,16,16]},
+        "east":  {"texture": "#all", "uv": [0,0,16,16]},
+        "up":    {"texture": "#all", "uv": [0,0,16,16]},
+        "down":  {"texture": "#all", "uv": [0,0,16,16]}
+      }
+    },
+    { "from": [9, 0, 6], "to": [12, 12, 10],
+      "faces": {
+        "north": {"texture": "#all", "uv": [0,0,16,16]},
+        "south": {"texture": "#all", "uv": [0,0,16,16]},
+        "west":  {"texture": "#all", "uv": [0,0,16,16]},
+        "east":  {"texture": "#all", "uv": [0,0,16,16]},
+        "up":    {"texture": "#all", "uv": [0,0,16,16]},
+        "down":  {"texture": "#all", "uv": [0,0,16,16]}
+      }
+    }
+  ]
+}

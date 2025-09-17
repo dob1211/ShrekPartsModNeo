@@ -1,3 +1,9 @@
 {
-  "block.shrekparts.shrek_head": "Shrek Head"
+  "block.shrekparts.shrek_head": "Shrek Head",
+  "block.shrekparts.shrek_left_arm": "Shrek Left Arm",
+  "block.shrekparts.shrek_right_arm": "Shrek Right Arm",
+  "block.shrekparts.shrek_body": "Shrek Body",
+  "block.shrekparts.shrek_legs": "Shrek Legs",
+  "block.shrekparts.shrek": "Shrek",
+  "creativetab.shrekparts.shrek_parts": "Shrek Parts"
 }

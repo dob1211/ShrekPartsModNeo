@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "shrekparts:shrek_body"
+        }
+      ],
+      "rolls": 2.0
+    }
+  ],
+  "random_sequence": "shrekparts:blocks/shrek_body"
+}

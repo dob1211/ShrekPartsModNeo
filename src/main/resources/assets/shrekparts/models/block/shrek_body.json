@@ -1,0 +1,24 @@
+{
+  "textures": {
+    "front":  "shrekparts:block/shrek_body_front_16",
+    "back":   "shrekparts:block/shrek_body_back_16",
+    "left":   "shrekparts:block/shrek_body_left_16",
+    "right":  "shrekparts:block/shrek_body_right_16",
+    "up":     "shrekparts:block/shrek_body_top_16",
+    "down":   "shrekparts:block/shrek_body_bottom_16",
+    "particle": "shrekparts:block/shrek_body_front_16"
+  },
+  "elements": [
+    {
+      "from": [3, 0, 3], "to": [13, 16, 13],
+      "faces": {
+        "north": { "texture": "#front", "uv": [0.01,0.01,15.99,15.99] },
+        "south": { "texture": "#back",  "uv": [0.01,0.01,15.99,15.99] },
+        "west":  { "texture": "#left",  "uv": [0.01,0.01,15.99,15.99] },
+        "east":  { "texture": "#right", "uv": [0.01,0.01,15.99,15.99] },
+        "up":    { "texture": "#up",    "uv": [0.01,0.01,15.99,15.99] },
+        "down":  { "texture": "#down",  "uv": [0.01,0.01,15.99,15.99] }
+      }
+    }
+  ]
+}

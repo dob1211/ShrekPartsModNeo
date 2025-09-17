@@ -1,0 +1,132 @@
+{
+  "credit": "ShrekParts – one-block statue (legs + body + arms + tilted head)",
+  "gui_light": "front",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "shrekparts:block/shrek_body_front_16",
+
+    "body_front": "shrekparts:block/shrek_body_front_16",
+    "body_back":  "shrekparts:block/shrek_body_back_16",
+    "body_left":  "shrekparts:block/shrek_body_left_16",
+    "body_right": "shrekparts:block/shrek_body_right_16",
+    "body_up":    "shrekparts:block/shrek_body_top_16",
+    "body_down":  "shrekparts:block/shrek_body_bottom_16",
+
+    "l_front": "shrekparts:block/shrek_left_arm_front_16",
+    "l_back":  "shrekparts:block/shrek_left_arm_back_16",
+    "l_left":  "shrekparts:block/shrek_left_arm_left_16",
+    "l_right": "shrekparts:block/shrek_left_arm_right_16",
+    "l_up":    "shrekparts:block/shrek_left_arm_top_16",
+    "l_down":  "shrekparts:block/shrek_left_arm_bottom_16",
+
+    "r_front": "shrekparts:block/shrek_right_arm_front_16",
+    "r_back":  "shrekparts:block/shrek_right_arm_back_16",
+    "r_left":  "shrekparts:block/shrek_right_arm_left_16",
+    "r_right": "shrekparts:block/shrek_right_arm_right_16",
+    "r_up":    "shrekparts:block/shrek_right_arm_top_16",
+    "r_down":  "shrekparts:block/shrek_right_arm_bottom_16",
+
+    "h_face":  "shrekparts:block/shrek_head_face",
+    "h_back":  "shrekparts:block/shrek_head_back",
+    "h_side":  "shrekparts:block/shrek_head_side",
+    "h_up":    "shrekparts:block/shrek_head_top",
+    "h_down":  "shrekparts:block/shrek_head_bottom",
+    "h_ear":   "shrekparts:block/shrek_head_ear",
+
+    "legs":    "shrekparts:block/shrek_legs_16"
+  },
+  "elements": [
+    /* Legs (short to fit in 1 block height) */
+    { "name": "LegL", "from": [5,0,6], "to": [7,6,10],
+      "faces": {
+        "north": {"texture":"#legs","uv":[0,0,16,16]},
+        "south": {"texture":"#legs","uv":[0,0,16,16]},
+        "west":  {"texture":"#legs","uv":[0,0,16,16]},
+        "east":  {"texture":"#legs","uv":[0,0,16,16]},
+        "up":    {"texture":"#legs","uv":[0,0,16,16]},
+        "down":  {"texture":"#legs","uv":[0,0,16,16]}
+      }
+    },
+    { "name": "LegR", "from": [9,0,6], "to": [11,6,10],
+      "faces": {
+        "north": {"texture":"#legs","uv":[0,0,16,16]},
+        "south": {"texture":"#legs","uv":[0,0,16,16]},
+        "west":  {"texture":"#legs","uv":[0,0,16,16]},
+        "east":  {"texture":"#legs","uv":[0,0,16,16]},
+        "up":    {"texture":"#legs","uv":[0,0,16,16]},
+        "down":  {"texture":"#legs","uv":[0,0,16,16]}
+      }
+    },
+
+    /* Body */
+    { "name": "Body", "from": [4,6,4], "to": [12,12,12],
+      "faces": {
+        "north": {"texture":"#body_front","uv":[0,0,16,16]},
+        "south": {"texture":"#body_back", "uv":[0,0,16,16]},
+        "west":  {"texture":"#body_left", "uv":[0,0,16,16]},
+        "east":  {"texture":"#body_right","uv":[0,0,16,16]},
+        "up":    {"texture":"#body_up",   "uv":[0,0,16,16]},
+        "down":  {"texture":"#body_down", "uv":[0,0,16,16]}
+      }
+    },
+
+    /* Arms */
+    { "name": "ArmL", "from": [2,6,6], "to": [4,12,10],
+      "faces": {
+        "north": {"texture":"#l_front","uv":[0,0,16,16]},
+        "south": {"texture":"#l_back", "uv":[0,0,16,16]},
+        "west":  {"texture":"#l_left", "uv":[0,0,16,16]},
+        "east":  {"texture":"#l_right","uv":[0,0,16,16]},
+        "up":    {"texture":"#l_up",   "uv":[0,0,16,16]},
+        "down":  {"texture":"#l_down", "uv":[0,0,16,16]}
+      }
+    },
+    { "name": "ArmR", "from": [12,6,6], "to": [14,12,10],
+      "faces": {
+        "north": {"texture":"#r_front","uv":[0,0,16,16]},
+        "south": {"texture":"#r_back", "uv":[0,0,16,16]},
+        "west":  {"texture":"#r_left", "uv":[0,0,16,16]},
+        "east":  {"texture":"#r_right","uv":[0,0,16,16]},
+        "up":    {"texture":"#r_up",   "uv":[0,0,16,16]},
+        "down":  {"texture":"#r_down", "uv":[0,0,16,16]}
+      }
+    },
+
+    /* Head (slight tilt) */
+    { "name": "Head", "from": [4,12,4], "to": [12,16,12],
+      "rotation": { "origin": [8,14,8], "axis": "z", "angle": -12 },
+      "faces": {
+        "north": {"texture":"#h_face","uv":[0,0,16,16]},
+        "south": {"texture":"#h_back","uv":[0,0,16,16]},
+        "west":  {"texture":"#h_side","uv":[0,0,16,16]},
+        "east":  {"texture":"#h_side","uv":[0,0,16,16]},
+        "up":    {"texture":"#h_up",  "uv":[0,0,16,16]},
+        "down":  {"texture":"#h_down","uv":[0,0,16,16]}
+      }
+    },
+
+    /* Ears (follow head tilt) */
+    { "name": "EarL", "from": [2,14,7], "to": [3,15,9],
+      "rotation": { "origin": [8,14,8], "axis": "z", "angle": -12 },
+      "faces": {
+        "north": {"texture":"#h_ear","uv":[0,0,16,16]},
+        "south": {"texture":"#h_ear","uv":[0,0,16,16]},
+        "west":  {"texture":"#h_ear","uv":[0,0,16,16]},
+        "east":  {"texture":"#h_ear","uv":[0,0,16,16]},
+        "up":    {"texture":"#h_ear","uv":[0,0,16,16]},
+        "down":  {"texture":"#h_ear","uv":[0,0,16,16]}
+      }
+    },
+    { "name": "EarR", "from": [13,14,7], "to": [14,15,9],
+      "rotation": { "origin": [8,14,8], "axis": "z", "angle": -12 },
+      "faces": {
+        "north": {"texture":"#h_ear","uv":[0,0,16,16]},
+        "south": {"texture":"#h_ear","uv":[0,0,16,16]},
+        "west":  {"texture":"#h_ear","uv":[0,0,16,16]},
+        "east":  {"texture":"#h_ear","uv":[0,0,16,16]},
+        "up":    {"texture":"#h_ear","uv":[0,0,16,16]},
+        "down":  {"texture":"#h_ear","uv":[0,0,16,16]}
+      }
+    }
+  ]
+}

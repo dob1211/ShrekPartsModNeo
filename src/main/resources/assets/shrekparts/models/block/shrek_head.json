@@ -4,9 +4,9 @@
   "ambientocclusion": false,
   "textures": {
     "particle": "shrekparts:block/shrek_head_side",
-    "front":   "shrekparts:block/shrek_head_face",
+    "back":   "shrekparts:block/shrek_head_face",
     "side":    "shrekparts:block/shrek_head_side",
-    "back":    "shrekparts:block/shrek_head_back",
+    "front":    "shrekparts:block/shrek_head_back",
     "up":      "shrekparts:block/shrek_head_top",
     "down":    "shrekparts:block/shrek_head_bottom",
     "ear":     "shrekparts:block/shrek_head_ear"
